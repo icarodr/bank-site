@@ -1,2 +1,2 @@
 # new-bank-frontend
-New Bank project Frontend
+New Bank site project Frontend
