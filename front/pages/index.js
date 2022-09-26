@@ -1,7 +1,6 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Center from '../components/Center';
-import NavBar from '../components/NavBar';
+import NavBar from '../components/NavBar/NavBar';
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar/>
-      <Center titulo='Bank Site' mensagem='Bank Project! O banco feito para você!' />
+      <Center titulo='Você no Controle!' mensagem='OraciBank! O banco perfeito para sua vida financeira!' />
     </div>
   );
 }
