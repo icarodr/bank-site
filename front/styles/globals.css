@@ -8,6 +8,6 @@ html{
 }
 
 .custom-img{
-  background-image: url('../assets/forest.jpg');
+  /* background-image: url('../assets/forest.jpg'); */
   background-color: black;
 }

@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import MobileMenu from "./MobileMenu"
+import MobileMenu from "./MobileMenu";
 
 const NavBar = () => {
 
@@ -13,7 +13,7 @@ const NavBar = () => {
 
     return(
         <>
-        <div className="fixed w-full text-white/60 flex justify-between p-4 items-center">
+        <div className="fixed z-50 w-full text-white/60 flex justify-between p-4 items-center">
 
         <div className="logo">
             <h1 className="text-2xl">OraciBank</h1>

@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar/>
-      <Center titulo='Você no Controle!' mensagem='OraciBank! O banco perfeito para sua vida financeira!' />
+      <Center titulo='Você no Controle!' mensagem='OraciBank! A melhor experiência para sua vida financeira!' />
     </div>
   );
 }
