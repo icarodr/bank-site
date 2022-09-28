@@ -8,6 +8,10 @@ html{
 }
 
 .custom-img{
-  background-image: url('../assets/blueblack-bg.jpg');
+  background-image: url('../assets/black-bg.jpg');
   background-color: black;
+  
+}
+.custom-img2{
+  background-image: url('../assets/other-black.jpg');
 }
