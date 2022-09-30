@@ -11,16 +11,36 @@ const NavBar = () => {
         setActive(!active);
     }
 
+   function CorNav(){
+    var nav = document.getElementById("navBar");
+    var titulo = document.getElementById("tituloNav");
+    var burguer = document.getElementById("burguer");
+    if(window.scrollY < 930){
+        nav.style.backgroundColor = "transparent";
+        titulo.style.color = "white";
+        burguer.style.color = "white";
+    }
+    if(window.scrollY >= 930){
+        nav.style.backgroundColor = "black";
+        titulo.style.color = "whitesmoke";
+        burguer.style.color = "whitesmoke";
+    }
+   }
+   setTimeout(() => {
+    window.addEventListener("scroll", CorNav);
+   }, 0.5);
+
+ 
     return(
         <>
-        <div className="fixed z-50 w-full text-white/60 flex justify-between p-4 items-center">
+        <div id="navBar" className="opacity-60 fixed z-50 w-full text-white flex justify-between p-4 items-center">
 
         <div className="logo">
-            <h1 className="text-2xl">OraciBank</h1>
+            <h1 id="tituloNav" className="text-2xl">OraciBank</h1>
         </div>
          <nav>
             <div className="absolute right-10 md:hidden">
-                <AiOutlineMenu onClick={showMenu} size={20}/>
+                <AiOutlineMenu id="burguer" onClick={showMenu} size={20}/>
             </div>
 
             <ul className="hidden md:flex gap-8 p-6">
