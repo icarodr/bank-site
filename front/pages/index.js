@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Center from '../components/Center/Center';
 import NavBar from '../components/NavBar/NavBar';
+import Content from '../components/Content/Content';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <NavBar/>
       <Center titulo='Você no Controle!' mensagem='OraciBank! A melhor experiência para sua vida financeira!' />
+      <Content/>
     </div>
   );
 }
