@@ -34,7 +34,6 @@ const NavBar = () => {
     return(
         <>
         <div id="navBar" className="opacity-60 fixed z-50 w-full text-white flex justify-between p-4 items-center">
-
         <div className="logo">
             <h1 id="tituloNav" className="text-2xl">OraciBank</h1>
         </div>
