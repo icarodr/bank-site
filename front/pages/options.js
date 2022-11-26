@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Nav from '../components/NavBar/NavBar';
 import Footer from '../components/Footer/Footer';
 
-export default function About() {
+export default function Options() {
   return (
     <div className='bg-black'>
       <Head>
