@@ -10,8 +10,13 @@ html{
 .custom-img{
   background-image: url('../assets/black-bg.jpg');
   background-color: black;
+  background-size: cover;
   
 }
 .custom-img2{
   background-image: url('../assets/black-bg.jpg');
+}
+
+.logo-image{
+  background-image: url('../assets/bank-logo.png');
 }

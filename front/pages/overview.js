@@ -1,7 +1,5 @@
 import Head from 'next/head';
-import Center from '../components/Center/Center';
 import Nav from '../components/NavBar/NavBar';
-import Content from '../components/Content/Content';
 import Footer from '../components/Footer/Footer';
 
 export default function Home() {
@@ -13,9 +11,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav/>
-      <Center titulo='Você no Controle!' mensagem='OraciBank! A melhor experiência para sua vida financeira!' />
-      <Content/>
-      <Footer/>
+      <div className="flex items-center justify-center h-screen mb-12 bg-fixed bg-cover custom-img">
+        <div className="top-0 left-0 right-0 bottom-0 z-[2] custom-img z-2"/>
+        <div className="absolute p-5 text-white z-[2]  mt-[-10rem]">
+        </div>
+    </div>
+      <Footer />
     </div>
   );
 }
