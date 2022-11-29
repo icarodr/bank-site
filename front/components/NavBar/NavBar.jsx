@@ -18,11 +18,11 @@ export default function Nav() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-4">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -33,7 +33,12 @@ export default function Nav() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <div className='logo-image'></div>
+                  <div className='bg-white'></div>
+                  <img
+                        className="h-8 w-8"
+                        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/898b7b8f-e01c-40e3-bab5-ec9e1c497941/d34tmp2-57903918-cd03-4f00-b918-053e0a904bbf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg5OGI3YjhmLWUwMWMtNDBlMy1iYWI1LWVjOWUxYzQ5Nzk0MVwvZDM0dG1wMi01NzkwMzkxOC1jZDAzLTRmMDAtYjkxOC0wNTNlMGE5MDRiYmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.436aoJSlvu7jNHnoaBRcmYBr98HA3vAFjglaOLLk6c0"
+                        alt="profile"
+                      />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -41,10 +46,7 @@ export default function Nav() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300',
-                          'px-3 py-2 rounded-md text-sm font-medium'
-                        )}
+                        className={'text-white px-3 py-2 rounded-md text-sm font-medium'}
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
@@ -54,22 +56,14 @@ export default function Nav() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
-                  type="button"
-                  className="rounded-full bg-black p-1 text-white"
-                >
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
-
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
-                    <Menu.Button className="flex rounded-full bg-gray-800 text-sm">
+                    <Menu.Button className="flex rounded-full text-sm">
                       <span className="sr-only">Open user menu</span>
                       <img
-                        className="h-8 w-8 rounded-full"
-                        src="logo-image"
+                        className="h-8 w-8 rounded-full bg-white"
+                        src="https://www.pngmart.com/files/21/Account-Avatar-Profile-PNG-Photo.png"
                         alt="profile"
                       />
                     </Menu.Button>
@@ -88,7 +82,7 @@ export default function Nav() {
                         {({ active }) => (
                           <a
                             href="login"
-                            className={classNames(active ? 'bg-gray-700' : '', 'block px-4 py-2 text-sm text-white')}
+                            className={classNames(active ? '' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                             Sign out
                           </a>
@@ -108,9 +102,7 @@ export default function Nav() {
                   key={item.name}
                   as="a"
                   href={item.href}
-                  className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block px-3 py-2 rounded-md text-base font-medium')}
+                  className={'text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium'}
                   aria-current={item.current ? 'page' : undefined}
                 >
                   {item.name}
