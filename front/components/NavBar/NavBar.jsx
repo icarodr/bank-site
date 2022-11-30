@@ -1,12 +1,12 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Overview', href: '/', current: true },
   { name: 'About', href: 'about', current: false },
   { name: 'Contacts', href: 'contact', current: false },
-  { name: 'Options', href: '#', current: false },
+  { name: 'Options', href: 'options', current: false },
 ]
 
 function classNames(...classes) {
