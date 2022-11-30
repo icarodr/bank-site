@@ -1,8 +1,18 @@
 import Link from "next/link";
 
 const Login = () => {
+
+    // const Auth = () => {
+    //   const url = "http://localhost:8000";
+    //   fetch(url)
+    //   .then(response => { return response.json() })
+    //   .then(apiBody => {
+    //     console.log("funfa")
+    //   });
+    // }
+    
     return(
-    <><div className="container h-96 w-96 bg-black bg-opacity-20 relative z-2 rounded-2xl border border-r-0 border-b-0 border-gray-200/25 drop-shadow-2xl backdrop-filter backdrop-blur-sm">
+    <><div className="container h-96 w-96 bg-white bg-opacity-10 relative z-2 rounded-2xl border border-r-0 border-b-0 border-gray-200/25 drop-shadow-2xl backdrop-filter backdrop-blur-sm">
         <form className="h-full flex flex-col justify-evenly items-center">
           <div className="text-white text-2xl tracking-wider">Login</div>
           <input type="username" placeholder="Username:" className="w-64 text-white bg-transparent focus:outline-none border border-r-0 border-t-0 border-l-0 tracking-wide" />

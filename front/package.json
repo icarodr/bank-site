@@ -13,11 +13,8 @@
     "@heroicons/react": "^2.0.13",
     "chart.js": "^4.0.1",
     "next": "12.3.1",
-<<<<<<< HEAD
     "next-auth": "^4.17.0",
-=======
     "pnpm": "^7.17.1",
->>>>>>> 02e9e58dffbf58d2611f83be255647c8f17cccdd
     "react": "18.2.0",
     "react-chartjs-2": "^5.0.1",
     "react-dom": "18.2.0",
