@@ -1,17 +1,18 @@
-# new-bank-frontend
-New Bank site project Frontend
+# Oracibank Website
+
+
+![site-1](https://user-images.githubusercontent.com/100098755/205062488-9c9aae7b-5c77-48ad-bc54-b5e6a5f203de.png)
 
 
 
 
-![index](https://user-images.githubusercontent.com/100098755/193412051-e6967c3e-f44a-46e7-ab59-1d502b026c7b.png)
+![site-2](https://user-images.githubusercontent.com/100098755/205062516-0fbee2e6-84f2-498a-9a0f-8e7f0940dac1.png)
 
 
 
 
-![login](https://user-images.githubusercontent.com/100098755/193412059-b83cd685-2e88-4fc4-abf4-d56699fe89ec.png)
+![site-3](https://user-images.githubusercontent.com/100098755/205062540-6e773fff-9d17-4345-b02a-0d5b2d687401.png)
 
 
 
 
-![mobile](https://user-images.githubusercontent.com/100098755/193412065-67e8c680-3786-428a-82f4-396c55dc54c3.png)
