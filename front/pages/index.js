@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/valknut-logo.ico" />
       </Head>
       <Nav/>
-      <Center titulo='Você no Controle!' mensagem='OraciBank! A melhor experiência para sua vida financeira!' />
+      <Center titulo='You in Control!' mensagem='OraciBank! The best experience for your financial life!' />
       <Content/>
       <Footer/>
     </div>
