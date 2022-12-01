@@ -1,9 +1,4 @@
 # Oracibank Website
-New Bank site project Frontend
-
-
-![valknut](https://user-images.githubusercontent.com/100098755/205063142-87f3f3a8-8748-4863-b598-161a693dc207.png)
-
 
 
 ![site-1](https://user-images.githubusercontent.com/100098755/205062488-9c9aae7b-5c77-48ad-bc54-b5e6a5f203de.png)
