@@ -2,23 +2,23 @@ import Link from "next/link";
 
 const Register = () => {
 
-  const { cadastrar } = useContext(AuthContext);
+  // const { cadastrar } = useContext(AuthContext);
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [password, setPassword] = useState('');
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("click", { email, password });
-    cadastrar(email, password);
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   console.log("click", { email, password });
+  //   cadastrar(email, password);
+  // };
 
-  const handleClick = (event) => {
-    event.preventDefault();
-    navigate("/");
-  }
+  // const handleClick = (event) => {
+  //   event.preventDefault();
+  //   navigate("/");
+  // }
 
  return(
     <div className="bg-white bg-opacity-10 rounded-2xl border border-r-0 border-b-0 border-gray-200/25 drop-shadow-2xl backdrop-filter backdrop-blur-sm">

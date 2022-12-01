@@ -1,27 +1,27 @@
 import Link from "next/link";
 import React, { useState, useContext } from 'react';
-import { AuthContext } from '../../contexts/auth';
-import { useNavigate } from 'react-router-dom';
+// import { AuthContext } from '../../contexts/auth';
+// import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
 
-  const { login } = useContext(AuthContext);
+  // const { login } = useContext(AuthContext);
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  // const [username, setUsername] = useState('');
+  // const [password, setPassword] = useState('');
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("submit", { email, password });
-    login(email, password);
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   console.log("submit", { email, password });
+  //   login(email, password);
+  // };
 
-  const handleClick = (event) => {
-    event.preventDefault();
-    navigate('/cadastro');
-  };
+  // const handleClick = (event) => {
+  //   event.preventDefault();
+  //   navigate('/signup');
+  // };
     
     return(
     <><div className="container h-96 w-96 bg-white bg-opacity-10 relative z-2 rounded-2xl border border-r-0 border-b-0 border-gray-200/25 drop-shadow-2xl backdrop-filter backdrop-blur-sm">
