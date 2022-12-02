@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React, { useState, useContext } from 'react';
 
 function initialState() {

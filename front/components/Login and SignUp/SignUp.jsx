@@ -1,6 +1,6 @@
-import Link from "next/link";
-
 const Register = () => {
+
+  
 
  return(
     <div className="bg-white bg-opacity-10 rounded-2xl border border-r-0 border-b-0 border-gray-200/25 drop-shadow-2xl backdrop-filter backdrop-blur-sm">
