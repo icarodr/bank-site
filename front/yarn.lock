@@ -355,7 +355,7 @@
 
 "axios@^1.2.0":
   "integrity" "sha512-zT7wZyNYu3N5Bu0wuZ6QccIf93Qk1eV8LOewxgjOZFd2DenOs98cJ7+Y6703d0wkaXGY6/nZd4EweJaHz9uzQw=="
-  "resolved" "https://rb-artifactory.bosch.com:443/artifactory/api/npm/npm-repo/axios/-/axios-1.2.0.tgz"
+  "resolved" "https://registry.npmjs.org/axios/-/axios-1.2.0.tgz"
   "version" "1.2.0"
   dependencies:
     "follow-redirects" "^1.15.0"
